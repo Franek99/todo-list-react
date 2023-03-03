@@ -1,0 +1,33 @@
+.section__HeaderAndButtons {
+    display: flex;
+    justify-content: end;
+    border-bottom: 1px solid rgb(226, 221, 221);
+}
+
+@media(max-width:767px) {
+    .section__HeaderAndButtons {
+        direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+.section__button {
+    background-color: white;
+    border: none;
+    color: teal;
+    cursor: pointer;
+}
+
+
+.section__button:active {
+    color: rgb(30, 232, 232);
+}
+
+.section__button:hover {
+    color: rgb(33, 235, 235);
+    transition: 0.5s;
+}
+
+.section__button:disabled {
+    color: rgba(153, 139, 139, 0.26);
+}
