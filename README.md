@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# TASK LIST
+# Demo 
+[MY TASK LIST](https://franek99.github.io/todo-list-react/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+ ![Website](public/Demo.png)
+
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- JSX
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
