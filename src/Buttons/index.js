@@ -6,10 +6,10 @@ const Buttons = (props) => {
         return null;
     }
     return (
-        <div className="section__HeaderAndButtons">
-            <button type="submit" className="section__button ">
+        <div className="buttons">
+            <button type="submit" className="buttons__button ">
                 {props.hideDoneTask ? "Pokaż" : "Ukryj"} Zakończone </button>
-            <button type="submit" className="section__button "
+            <button type="submit" className="buttons__button "
                 disabled={props.tasks.every(({ done })=>done)}
             > Ukończ Wszystkie </button>
         </div>
