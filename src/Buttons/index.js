@@ -11,7 +11,9 @@ const Buttons = ({ tasks, hideDone, toggleHideDone }) => {
              type="submit" 
              className="buttons__button ">
                 {hideDone ? "Pokaż" : "Ukryj"} Zakończone </button>
-            <button type="submit" className="buttons__button "
+            <button 
+            type="submit" 
+            className="buttons__button "
                 disabled={tasks.every(({ done }) => done)}
             > Ukończ Wszystkie </button>
         </div>
