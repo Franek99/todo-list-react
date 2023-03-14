@@ -4,7 +4,7 @@ import List from './List';
 import Buttons from './Buttons';
 import Section from './Section';
 import Header from './Header';
-import Body from './Body';
+import Main from './Main';
 
 const tasks = [
   { id: 1, content: "Przejść na Reacta", done: false },
@@ -16,7 +16,7 @@ const hideDoneTasks = false;
 
 function App() {
   return (
-    <Body>
+    <Main>
       <Header
         title="Lista Zadań"
       />
@@ -33,7 +33,7 @@ function App() {
           <Buttons tasks={tasks} hideDoneTasks={hideDoneTasks}
           />}
       />
-    </Body>
+    </Main>
   );
 }
 
